@@ -19,22 +19,22 @@ define( 'WP_RSS_MULTI_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WP_RSS_MULTI_URL', plugin_dir_url( __FILE__ ) );
 
 /* Set the constant path to the plugin's includes directory. */
-define( 'WP_RSS_MULTI_INC', WP_RSS_MULTI_PATH . trailingslashit( 'inc' ), true );
+define( 'WP_RSS_MULTI_INC', WP_RSS_MULTI_PATH . trailingslashit( 'inc' ) );
 
 /* Set the constant path to the plugin's utils directory. */
-define( 'WP_RSS_MULTI_UTILS', WP_RSS_MULTI_PATH . trailingslashit( 'utils' ), true );
+define( 'WP_RSS_MULTI_UTILS', WP_RSS_MULTI_PATH . trailingslashit( 'utils' ) );
 
 /* Set the constant path to the plugin's template directory. */
-define( 'WP_RSS_MULTI_TEMPLATES', WP_RSS_MULTI_PATH . trailingslashit( 'templates' ), true );
+define( 'WP_RSS_MULTI_TEMPLATES', WP_RSS_MULTI_PATH . trailingslashit( 'templates' ) );
 
 /* Set the constant path to the plugin's scripts directory. */
-define( 'WP_RSS_MULTI_SCRIPTS', WP_RSS_MULTI_URL . trailingslashit( 'scripts' ), true );
+define( 'WP_RSS_MULTI_SCRIPTS', WP_RSS_MULTI_URL . trailingslashit( 'scripts' ) );
 
 /* Set the constant path to the plugin's css directory. */
-define( 'WP_RSS_MULTI_CSS', WP_RSS_MULTI_URL . trailingslashit( 'css' ), true );
+define( 'WP_RSS_MULTI_CSS', WP_RSS_MULTI_URL . trailingslashit( 'css' ) );
 
 /* Set the constant path to the plugin's image directory. */
-define( 'WP_RSS_MULTI_IMAGES', WP_RSS_MULTI_URL . trailingslashit( 'images' ), true );
+define( 'WP_RSS_MULTI_IMAGES', WP_RSS_MULTI_URL . trailingslashit( 'images' ) );
 
 /* Load the template functions file. */
 require_once( WP_RSS_MULTI_INC . 'template_functions.php' );
